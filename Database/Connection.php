@@ -50,4 +50,9 @@ $prueba->connection();
 $resultado=$prueba->executeInstruction('Select * from task');
 var_dump(mysqli_fetch_array($resultado));
 **/
+
+/*
+variables de entorno
+$_ENV["USER"]
+**/
 ?>
